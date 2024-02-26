@@ -1,0 +1,38 @@
+/*
+MY COLOR PALETTE
+Color 1 - #f5d5ed
+Color 2 - #ebb9df
+Color 3 - #d991ba
+Color 4 - #6f65a4
+Color 5 - #478978
+*/
+
+body {
+    background-color: #478978;
+    text-align: center;
+}
+
+button {
+    background-color: #8b95c9;
+    color: black;
+    font-family: "Quattrocento", serif;
+    width: 200px;
+    padding: 20px;
+    margin: 50px;
+    font-size: 20px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: #d991ba;
+}
+
+h1 {
+    font-family: "Rufina", serif;
+}
+
+h2 {
+    font-family: "Quattrocento", serif;
+}
