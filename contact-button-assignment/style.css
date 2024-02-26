@@ -10,6 +10,7 @@ Color 5 - #478978
 body {
     background-color: #478978;
     text-align: center;
+    
 }
 
 button {
@@ -31,6 +32,8 @@ button:hover {
 
 h1 {
     font-family: "Rufina", serif;
+    
+    
 }
 
 h2 {
