@@ -5,4 +5,126 @@
 img {
     width:100%
     border:solid 5px purple;
+    border-radius: 10px;
+    position: relative;
+    top: 10px;
+    left: 28px;
+    
+}
+
+h1 {
+    font-family: "Rufina", serif;
+    color: white;
+    padding: 20px;
+    margin: 40px;
+    margin-bottom: 5px;
+}
+h2 {
+    font-family: "Rufina", serif;
+    color: white;
+    margin: 40px;
+}
+
+h3 {
+    position: relative;
+        left: 15px; 
+    font-family: "Rufina", serif;
+    color: white
+    
+}
+#button {
+    font-family: "Quattrocento", serif;
+    width: 200px;
+    padding: 17px;
+    margin: 50px;
+    font-size: 17px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+    bottom: 35px;
+    background-color: #fdfdfb;
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    background-color: #DECDF5
+    
+}
+
+#button:hover {
+    background-color: #d991ba; 
+}
+
+
+
+body {
+    background-color: #5E376D;
+}
+
+#experience {
+    color: #d991ba; 
+    font-family: "Quattrocento", serif;
+}
+
+#nav {
+    background-color: #DECDF5; 
+    padding: 15px; 
+}
+
+
+.green a.nav-link {
+    color: #5E376D; 
+    text-align: center
+    text-decoration: none; 
+    padding: 10px 20px; 
+    font-size: 22px; 
+    font-family: "Quattrocento", bold;
+}
+
+.green a.nav-link:hover {
+    background-color: #d991ba; 
+}
+
+.green {
+    text-align: center;
+}
+#sections h3:first-of-type {
+    margin-top: 40px;
+}
+
+.col-sm-9 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+p {
+    font-family:"Quattrocento", serif;
+    color:#DECDF5;
+    font-size: 16px;
+    padding-left: 40px;
+    padding-right: 50px;
+}
+
+ul { font-family:"Quattrocento", serif;
+    color:#DECDF5;
+    font-size: 16px;
+    padding-right: 30px;    
+}
+@media (max-width: 576px) {
+    .green a.nav-link {
+        padding: 5px 10px; 
+        font-size: 18px; 
+    }
+}
+@media (min-width: 992px) {
+    .green a.nav-link {
+        padding: 10px 20px; 
+        font-size: 22px; 
+    }
+    .green {
+        text-align: center;
+    }
 }
