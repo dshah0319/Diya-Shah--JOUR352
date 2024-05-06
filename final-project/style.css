@@ -1,3 +1,46 @@
-h1{
+#topper {
     background-image: url(JW_KidsPhones_FinalJW_final_bleed.webp);
+    background-size: cover;
+    background-position: center;
+    height: 150vh;
+}
+
+#imgh1 {
+    font-family: "Cardo", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 50px;
+    padding: 10px 10px 10px 10px;
+    margin: 50px 100px 0px 20px;
+}
+
+#byline {
+    margin: 20px 20px 0px 30px;
+    padding: 10px 10px 10px 10px;
+    font-family: "Didact Gothic", sans-serif;
+    font-size: 20px;
+}
+
+#caption {
+    text-align: center;
+    margin-top: 630px;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-family: "Didact Gothic", sans-serif;
+    font-size: 25px;
+}
+#credit {
+    font-family: "Didact Gothic", sans-serif;
+    text-align: right;
+    margin-top: 65px;
+    font-size: 14px;
+}
+body {
+    background-color: black;
+}
+#content {
+    color: white;
+    margin-left: 50px;
+    margin-top: 50px;
+    font-family: "Didact Gothic", sans-serif;
 }
