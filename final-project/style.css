@@ -1,8 +1,8 @@
 #topper {
     background-image: url(JW_KidsPhones_FinalJW_final_bleed.webp);
-    background-size: cover;
     background-position: center;
     height: 150vh;
+    background-size: 100vw;
 }
 
 #imgh1 {
@@ -41,6 +41,58 @@ body {
 #content {
     color: white;
     margin-left: 50px;
-    margin-top: 50px;
+    margin-top: 46px;
+    margin-right: 50px;
     font-family: "Didact Gothic", sans-serif;
+    text-align: justify;
+    text-overflow: inherit;
+    font-size: 18px;
+}
+#image1 {
+    border-radius: 8px;
+    float: right;
+    margin-left: 20px;
+}
+.container {
+    position: relative;
+}
+.bottomright {
+    position: absolute;
+    top: 6px;
+    right: 16px;
+    font-size: 14px;
+    color: black;
+}
+.flourish-photo-slider .flourish-embed-image {
+    /* how do i style the flourish element!?!?!? */
+    border-radius: 8px;
+}
+#image2 {
+    border-radius: 8px;
+    float: left;
+    margin-right: 20px;
+}
+.captiontext {
+    position: absolute;
+    font-size: 14px;
+    color: white;
+    top: 275px;
+    left: 20px;
+}
+
+#playground-image {
+    border-radius: 8px;
+}
+
+.imagecourtesy {
+    position: absolute;
+    float: left;
+    bottom: 7px;
+    font-size: 14px;
+    margin-left: 12px;
+}
+#black-hole-gif {
+   border-radius: 50%;
+    float: right;
+    
 }
