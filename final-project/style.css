@@ -20,29 +20,28 @@
     font-family: "Didact Gothic", sans-serif;
     font-size: 20px;
 }
-
-#caption {
-    text-align: center;
-    margin-top: 630px;
-    margin-left: 200px;
-    margin-right: 200px;
+.topper-caption {
     font-family: "Didact Gothic", sans-serif;
     font-size: 25px;
+    text-align: center;
+    margin-top: 43%;
+    margin-left: 200px;
+    margin-right: 200px;
 }
-#credit {
+.topper-credit {
     font-family: "Didact Gothic", sans-serif;
     text-align: right;
     margin-top: 65px;
     font-size: 14px;
 }
+
 body {
     background-color: black;
 }
 #content {
     color: white;
-    margin-left: 50px;
     margin-top: 46px;
-    margin-right: 50px;
+    width: 60%;
     font-family: "Didact Gothic", sans-serif;
     text-align: justify;
     text-overflow: inherit;
@@ -53,7 +52,7 @@ body {
     float: right;
     margin-left: 20px;
 }
-.container {
+.inline-image {
     position: relative;
 }
 .bottomright {
@@ -66,6 +65,21 @@ body {
 .flourish-photo-slider .flourish-embed-image {
     /* how do i style the flourish element!?!?!? */
     border-radius: 8px;
+}
+.pull-quote {
+    position: relative;
+    margin: 20px 0;
+    padding: 20px;
+    background-image: url("https://i.pinimg.com/originals/00/a9/73/00a973b96c10c7507028ac7553f16d6b.gif");
+    border-left: 10px solid #ee7573;
+    border-right: 10px solid #ee7573;
+}
+
+.pull-quote blockquote {
+    margin: 0;
+    font-size: 1.2em;
+    font-style: italic;
+    color: black;
 }
 #image2 {
     border-radius: 8px;
@@ -82,17 +96,19 @@ body {
 
 #playground-image {
     border-radius: 8px;
+    float: right;
+    margin-left: 20px;
+    margin-top: 15px;
 }
 
 .imagecourtesy {
     position: absolute;
-    float: left;
-    bottom: 7px;
+    float: right;
+    right: 275px;
+    top: 360px;
     font-size: 14px;
-    margin-left: 12px;
 }
 #black-hole-gif {
-   border-radius: 50%;
+    border-radius: 50%;
     float: right;
-    
 }
