@@ -66,20 +66,38 @@ body {
     /* how do i style the flourish element!?!?!? */
     border-radius: 8px;
 }
-.pull-quote {
+#first-pull-quote {
     position: relative;
     margin: 20px 0;
     padding: 20px;
-    background-image: url("https://i.pinimg.com/originals/00/a9/73/00a973b96c10c7507028ac7553f16d6b.gif");
+    background-color: #6593d8;
+    border-left: 6px solid #ee7573;
+    border-right: 6px solid #ee7573;
+}
+#first-pull-quote blockquote {
+    margin: 0;
+    font-size: 25px;
+    font-style: italic;
+    color: black;
+}
+.pull-quote {
+    position: relative;
+
+    margin: 20px 0;
+    padding: 80px;
+    background-image: url("https://i.gifer.com/O7e8.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     border-left: 10px solid #ee7573;
     border-right: 10px solid #ee7573;
 }
 
 .pull-quote blockquote {
     margin: 0;
-    font-size: 1.2em;
+    font-size: 25px;
     font-style: italic;
-    color: black;
+    color: white;
 }
 #image2 {
     border-radius: 8px;
