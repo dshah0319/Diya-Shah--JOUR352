@@ -72,8 +72,8 @@
         margin: 20px 0;
         padding: 20px;
         background-color: #6593d8;
-        border-left: 6px solid #ee7573;
-        border-right: 6px solid #ee7573;
+        border-left: 10px solid #ee7573;
+        border-right: 10px solid #ee7573;
     }
     #first-pull-quote blockquote {
         margin: 0;
@@ -152,7 +152,11 @@
         #playground-image {
             width: 100%;
         }
-    }
-    @media (min-width: 992px) {
+        #topper {
+            width: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
     }
 }
